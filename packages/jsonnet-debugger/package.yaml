@@ -1,0 +1,16 @@
+---
+name: jsonnet-debugger
+description: Debugging client for the Jsonnet data templating language
+homepage: https://github.com/grafana/jsonnet-debugger
+licenses:
+  - AGPL-3.0-or-later
+languages:
+  - Jsonnet
+categories:
+  - DAP
+
+source:
+  id: pkg:golang/github.com/grafana/jsonnet-debugger@v0.1.0
+
+bin:
+  jsonnet-debugger: golang:jsonnet-debugger
